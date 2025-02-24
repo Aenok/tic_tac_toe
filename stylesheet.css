@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#header {
+    background: black;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    color: white;
+    justify-content: center;
+}
+
+#header, #footer {
+    height: 100px;
+    width: 590px;
+    display: flex;
+    align-items: center;
+}
+
+#footer {
+    justify-content: center;
+    gap: 30px;
+}
+
+#footer > button {
+    border-style: none;
+    background: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: 900;
+}
+
+#header {
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#game_board {
+    width: 600px;
+    height: 600px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#bye {
+    width: 590px;
+    height: 600px;
+    background: black;
+    display: none;
+    border-style: solid;
+    border-color: white;
+}
+
+#bye > img {
+    width: 590px;
+    height: 600px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.cell{
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    display:flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.cell > img {
+    align-self: center;
+}
